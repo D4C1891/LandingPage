@@ -99,13 +99,14 @@ ul {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-bottom: 16px;
 }
 
 ul.animals img {
     display: flex;
     justify-content: center;
-    width: 250px;
-    height: 250px;
+    width: 200px;
+    height: 200px;
     border: 4px solid #3882F6;
     border-radius: 8px;
     margin-bottom: 16px;
@@ -114,6 +115,80 @@ ul.animals img {
 .infoText  {
     font-size: 18px;
     margin: 0;
+}
+
+.quote {
+    display: flex;
+    background-color: #E5E7EB;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.quoteText {
+    font-size: 36px;
+    color: #1F2937;
+    font-style: italic;
+    max-width: 1000px;
+}
+
+.quoteMaker  {
+    font-style: normal;
+    font-size: 18px;
+    font-weight: bold;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 24px;
+}
+
+.callContainer {
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    flex: 1;
+    padding: 64px 16px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.call {
+    background-color: #3882F6;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 60px;
+    border-radius: 10px;
+    max-width: 1000px;
+    width: 100%;
+    gap: 24px;
+    flex-wrap: wrap;
+}
+
+.callText {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.callSubtext {
+    margin: 0;
+}
+
+.callButton {
+    padding: 12px 28px;
+    border: 2px solid white;
+    background-color: transparent;
+    color: white;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-right: 50px;
 }
 
 .footer {
@@ -125,3 +200,4 @@ ul.animals img {
     justify-content: center;
     margin-top: auto;
 }
+
